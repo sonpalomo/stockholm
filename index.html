@@ -27,6 +27,11 @@
 
         }
 
+        a{
+
+            text-decoration: none;
+        }
+
         .header {
             display: flex;
             flex-direction: row;
@@ -34,19 +39,17 @@
             align-items: center;
             padding-left: 2rem;
             padding-right: 2rem;
-            background-color: rgb(252, 255, 225);
+            background-color: rgb(255, 255, 255);
             height: 4rem;
             font-size: .8rem;
             gap: 3px;
-
-
+            font-size: 10px;
         }
 
         .nav__logo {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            background-color: white;
         }
 
         .nav__logo img {
@@ -54,14 +57,14 @@
         }
 
         .nav__items {
-            background-color: rgb(187, 187, 187);
+            background-color: rgb(255, 255, 255);
             gap: 12px;
             list-style: none;
             display: none;
         }
 
         .nav__menuicon {
-            background-color: bisque;
+            background-color: rgb(255, 255, 255);
 
 
         }
@@ -75,18 +78,7 @@
                 'GRAD' 0,
                 'opsz' 24
         }
-
-
-
-        /* grid imagenes */
-        /* 
-        .main {
-           
-            
-            
-        } */
-
-
+    
         .grid__item {
             display: flex;
             flex-direction: column;
@@ -206,7 +198,7 @@
         /* ------Responsive------ */
         @media screen and (min-width:1024px) {
             .header {
-                background-color: rgb(252, 255, 225);
+                background-color: rgb(255, 255, 255);
                 height: 4rem;
                 flex-direction: row;
                 justify-content: space-between;
@@ -224,21 +216,20 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-            }
-
-            .imageitemsize {
-                height: 250px;
+                gap: 20px;
                 
-
             }
-
 
             .grid__item {
                 display: grid;
                 grid-template-columns: repeat(6, 1fr);
-                grid-template-rows: repeat(5, 12em);
-                /* sep. fil y col*/
+                grid-template-rows: repeat(5, 12rem);
                 height: 100%;
+
+            }
+
+            .imageitemsize {    
+                height:13rem
 
             }
 
@@ -247,7 +238,19 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
 
+            .grid__item--2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .grid__item--3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
 
