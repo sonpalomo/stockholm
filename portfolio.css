@@ -30,6 +30,11 @@ main{
     gap: 10px;
 }
 
+textarea{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
 
 .portfolio__grid--style , img {
     display: flex;
@@ -48,9 +53,9 @@ main{
         grid-template-rows:  15em 15em ;
         grid-gap: 10px;
         transition: 2s;
-        
        
     }
+
     
 }
 

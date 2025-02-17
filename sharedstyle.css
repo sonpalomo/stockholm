@@ -32,10 +32,9 @@ ul{
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    
     background-color: rgb(255, 255, 255);
     height: 4rem;
     font-size: .8rem;
@@ -46,7 +45,7 @@ ul{
 .nav__logo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .nav__logo img {
@@ -55,9 +54,11 @@ ul{
 
 .nav__items {
     background-color: rgb(255, 255, 255);
-    gap: 12px;
+    gap: 1rem;
     list-style: none;
-    display: none;
+    display: flex;
+    flex-direction: row;
+    /* display: none; */
     font-weight: 300;
 }
 
@@ -106,6 +107,8 @@ footer {
     .header {
         background-color: rgb(255, 255, 255);
         height: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
