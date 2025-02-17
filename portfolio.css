@@ -44,7 +44,7 @@ main{
 @media screen and (min-width: 780px){
     .portfolio__grid{
         background-color: rgb(255, 255, 255);
-        display:grid;
+        display: grid;
         grid-template-columns:  15em 15em 15em;
         grid-template-rows:  15em 15em ;
         grid-gap: 10px;
