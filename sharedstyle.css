@@ -11,6 +11,24 @@ a{
     color: black;
 }
 
+a:hover{
+    color: rgb(139, 163, 139);
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -40,6 +58,7 @@ a{
     gap: 12px;
     list-style: none;
     display: none;
+    font-weight: 300;
 }
 
 .nav__menuicon {
@@ -83,6 +102,7 @@ footer {
 }
 /* ------Responsive------ */
 @media screen and (min-width:780px){
+
     .header {
         background-color: rgb(255, 255, 255);
         height: 4rem;
@@ -105,5 +125,7 @@ footer {
         gap: 20px;
         
     }
+
+   
 }
 

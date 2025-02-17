@@ -1,0 +1,114 @@
+.main{
+    padding: 10px;
+   
+}
+
+.banner__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/About-title-img.jpg");
+    height: 130px;
+    transition: 2s;
+    font-weight: lighter;
+    background-size:cover;
+    
+}
+
+.banner__content--contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/Contact-title-img.jpg");
+    height: 130px;
+    transition: 2s;
+    font-weight: lighter;
+    background-size:cover;
+    
+}
+h1{ padding-left:50px ;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding:2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sinborde{
+    border: 0;
+}
+
+.submitbottom{
+    width: 8rem;
+    height: 3rem;
+    background-color: #ebe0d1;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.7rem;
+}
+
+.submitbottom:hover{
+ 
+    background-color: rgb(139, 163, 139);
+    
+} 
+.content__img{
+    width: 100%;
+
+}
+
+.content__text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+}
+
+.content__text--info{
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 300;
+    margin-top: .8rem;
+    
+}
+
+@media screen and (min-width:1028px) {
+    .banner__content{
+        height: 250px;
+        transition: 2s;
+    }
+    .banner__content--contact{
+        height: 250px;
+        transition: 2s;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        padding: 3rem;
+        gap:5rem;
+    }
+    .content__img{
+        width: 350px;
+        height: 550px;  
+    }
+
+    .img{
+        width: 50px;
+    }
+    .content__text{
+        width: 30%;
+    }
+
+    
+
+    
+}
