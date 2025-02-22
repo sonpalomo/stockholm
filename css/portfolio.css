@@ -4,19 +4,6 @@ main{
    
 }
 
-
-.banner__content--portfolio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url("images/Masonry-list-img-15-500x500.jpg");
-    height: 130px;
-    transition: 2s;
-    font-weight: lighter;
-    background-size:cover;
-    
-}
-
 .content{
     width: 100%;
     display: flex;
