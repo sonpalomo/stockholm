@@ -1,33 +1,29 @@
 .main{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+ 
    
 }
 
-.banner__content{
+.banner{
+    background-color: antiquewhite;
+    height: 150px;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url("images/About-title-img.jpg");
-    height: 130px;
-    transition: 2s;
-    font-weight: lighter;
-    background-size:cover;
+    align-items: center;
+}
+
+
+.banner__img{
+    width: fit-content;
     
 }
 
-.banner__content--contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url("images/Contact-title-img.jpg");
-    height: 130px;
-    transition: 2s;
+.banner__title{
+    padding: 30px;
+    position: absolute;
     font-weight: lighter;
-    background-size:cover;
-    
-}
-h1{ padding-left:50px ;
-
 }
 
 .content{
